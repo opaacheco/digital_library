@@ -15,7 +15,7 @@ import AVerdadeiraLeiDoCodigoDeAtracao from '../Pages/AVerdadeiraLeiDoCodigoDeAt
 import SeteManeirasPelasQuaisAAnsiedadePodeEstarDevorandoLentamenteASuaVida from '../Pages/SeteManeirasPelasQuaisAAnsiedadePodeEstarDevorandoLentamenteASuaVida'
 import PequenosCristos from '../Pages/PequenosCristos'
 import PsicanaliseERacismo from '../Pages/PsicanaliseERacismo'
-import VerdadeiroCristao from '../Pages/verdadeiroCristao'
+import VerdadeiroCristao from '../Pages/VerdadeiroCristao'
 import DaquiUmAnoVoceVaiDesejarTerComecadoHoje from '../Pages/DaquiUmAnoVoceVaiDesejarTerComecadoHoje'
 
 const Wayz = () => {
