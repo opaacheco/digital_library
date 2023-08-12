@@ -1,0 +1,53 @@
+@import './Root.css';
+
+.navbar {
+    display: flex;
+    padding: 3% 0;
+}
+
+.navbar-nav {
+    gap: 30px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: var(--item-color);
+}
+
+.nav-link:hover {
+    color: var(--font-color);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .navbar {
+        display: flex;
+        padding: 5% 0;
+    }
+
+    .navbar-nav {
+        gap: 20px;
+    }
+
+    .nav-link {
+        font-size: 0.6rem;
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 968px) {
+
+    .navbar {
+        display: flex;
+        padding: 5% 0;
+    }
+
+    .navbar-nav {
+        gap: 20px;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+    }
+
+}

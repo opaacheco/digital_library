@@ -1,0 +1,86 @@
+@import 'Root.css';
+
+.main-access {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 3% 0 3% 0;
+}
+
+.main-access__title {
+    font-size: 36px;
+    font-family: var(--font-title);
+    font-weight: 400;
+}
+
+.main-access__title__transform {
+    color: var(--item-color);
+}
+
+.conteudo-access {
+    font-size: 24px;
+    font-family: var(--font-text);
+}
+
+.conteudo-access__link {
+    text-decoration: none;
+    color: var(--item-color);
+}
+
+.conteudo-access__images {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    margin: 3rem 0 3rem 0;
+}
+
+.conteudo-access__images__image {
+    width: 1280px;
+}
+
+.conteudo-access__link:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .main-access__title {
+        font-size: 15px;
+    }
+
+    .conteudo-access {
+        font-size: 13px;
+    }
+
+    .conteudo-access {
+        font-size: 14px;
+        font-family: var(--font-text);
+    }
+
+    .conteudo-access__images__image {
+        width: 380px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 968px) {
+
+    .main-access__title {
+        font-size: 24px;
+    }
+
+    .conteudo-access {
+        font-size: 20px;
+    }
+
+    .conteudo-access {
+        font-size: 21px;
+        font-family: var(--font-text);
+    }
+
+    .conteudo-access__images__image {
+        width: 580px;
+    }
+
+
+}

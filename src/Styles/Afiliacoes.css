@@ -1,0 +1,104 @@
+@import 'Root.css';
+
+.main-afiliacoes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 3% 0 3% 0;
+}
+
+.main-afiliacoes__title {
+    font-size: 36px;
+    font-family: var(--font-title);
+    font-weight: 400;
+}
+
+.main-afiliacoes__title__transform {
+    color: var(--item-color);
+}
+
+.conteudo-afiliacoes {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 24px;
+    font-family: var(--font-text);
+}
+
+.conteudo-afiliacao__banner {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 24px;
+    font-family: var(--font-text);
+    margin-top: 40px;
+}
+
+.conteudo-afiliacao__banner__card {
+    min-width: 1200px !important;
+    max-width: 1200px !important;
+}
+
+.conteudo-afiliacao__banner__card__image {
+    border-radius: 0 !important;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .main-afiliacoes__title {
+        font-size: 15px;
+    }
+
+    .conteudo-afiliacoes {
+        margin-left: 21%;
+        margin-right: 21%;
+        font-size: 12px;
+        font-family: var(--font-text);
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        font-family: var(--font-text);
+        flex-wrap: wrap;
+    }
+
+    .conteudo-afiliacoes {
+        font-size: 20px;
+    }
+
+    .conteudo-afiliacao__banner__card {
+        min-width: 358px !important;
+        max-width: 358px !important;
+    }
+
+    .conteudo-afiliacao__banner__card__image {
+        height: 400px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 968px) {
+
+    .main-afiliacoes__title {
+        font-size: 24px;
+    }
+
+    .conteudo-afiliacao__banner__card {
+        min-width: 480px !important;
+        max-width: 480px !important;
+    }
+    
+    .conteudo-afiliacoes {
+        font-size: 20px;
+        font-family: var(--font-text);
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        font-family: var(--font-text);
+        flex-wrap: wrap;
+    }
+
+    .conteudo-afiliacao__banner__card__image {
+        height: 400px;
+    }
+
+}

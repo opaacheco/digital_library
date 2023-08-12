@@ -1,0 +1,64 @@
+@import './Root.css';
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.selo_qualidade {
+    margin: 2rem 0 .3rem 0;
+}
+
+.selo_qualidade img {
+    width: 220px;
+}
+
+.text_rodape {
+    font-size: 1.2rem;
+    color: var(--branco);
+    font-family: var(--font-text);
+}
+
+/* Para celulares */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .selo_qualidade img {
+        width: 100px;
+    }
+    
+    .text_rodape {
+        position: relative;
+        bottom: 5px;
+        font-size: 0.6rem;
+    }
+    
+    .selo_qualidade {
+        position: relative;
+        bottom: 10px;
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 968px) {
+
+    .selo_qualidade img {
+        width: 150px;
+    }
+    
+    .text_rodape {
+        position: relative;
+        bottom: 5px;
+        font-size: 0.8rem;
+    }
+    
+    .selo_qualidade {
+        position: relative;
+        bottom: 10px;
+    }
+
+}
