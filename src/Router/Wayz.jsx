@@ -21,41 +21,21 @@ import DaquiUmAnoVoceVaiDesejarTerComecadoHoje from '../Pages/DaquiUmAnoVoceVaiD
 const Wayz = () => {
   return (
     <BrowserRouter>
-        <NavbarMain />
-        <Routes>
-            <Route path='/' element={ <Home /> } />
-        </Routes>
-        <Routes>
-            <Route path='/ebooks' element={ <Ebooks /> } />
-        </Routes>
-        <Routes>
-            <Route path='/afiliacoes' element={ <Afiliacoes /> } />
-        </Routes>
-        <Routes>
-            <Route path='/como-acessar' element={ <ComoAcessar /> } />
-        </Routes>
-        <Routes>
-            <Route path='/7-dicas-de-gerenciamendo-do-tempo' element={ <SeteDicasGerenciamentoTempo /> } />
-        </Routes>
-        <Routes>
-            <Route path='/a-verdadeira-lei-do-codigo-de-atracao' element={ <AVerdadeiraLeiDoCodigoDeAtracao /> } />
-        </Routes>
-        <Routes>
-            <Route path='/7-maneiras-pelas-quais-a-ansiedade-pode-estar-devorando-lentamente-a-sua-vida' element={ <SeteManeirasPelasQuaisAAnsiedadePodeEstarDevorandoLentamenteASuaVida /> } />
-        </Routes>
-        <Routes>
-            <Route path='/daqui-um-ano-voce-vai-desejar-ter-comecado-hoje' element={ <DaquiUmAnoVoceVaiDesejarTerComecadoHoje /> } />
-        </Routes>
-        <Routes>
-            <Route path='/pequenos-cristos' element={ <PequenosCristos /> } />
-        </Routes>
-        <Routes>
-            <Route path='/psicanalise-e-racismo' element={ <PsicanaliseERacismo /> } />
-        </Routes>
-        <Routes>
-            <Route path='/verdadeiro-cristao' element={ <VerdadeiroCristao /> } />
-        </Routes>
-        <Footer />
+      <NavbarMain />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/ebooks' element={<Ebooks />} />
+        <Route path='/afiliacoes' element={<Afiliacoes />} />
+        <Route path='/como-acessar' element={<ComoAcessar />} />
+        <Route path='/7-dicas-de-gerenciamendo-do-tempo' element={<SeteDicasGerenciamentoTempo />} />
+        <Route path='/a-verdadeira-lei-do-codigo-de-atracao' element={<AVerdadeiraLeiDoCodigoDeAtracao />} />
+        <Route path='/7-maneiras-pelas-quais-a-ansiedade-pode-estar-devorando-lentamente-a-sua-vida' element={<SeteManeirasPelasQuaisAAnsiedadePodeEstarDevorandoLentamenteASuaVida />} />
+        <Route path='/daqui-um-ano-voce-vai-desejar-ter-comecado-hoje' element={<DaquiUmAnoVoceVaiDesejarTerComecadoHoje />} />
+        <Route path='/pequenos-cristos' element={<PequenosCristos />} />
+        <Route path='/psicanalise-e-racismo' element={<PsicanaliseERacismo />} />
+        <Route path='/verdadeiro-cristao' element={<VerdadeiroCristao />} />
+      </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
