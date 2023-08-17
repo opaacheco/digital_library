@@ -1,7 +1,15 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-})
+  build: {
+    rollupOptions: {
+      input: {
+        Home: 'src/Pages/Home.jsx',
+        Afiliacoes: 'src/Pages/Afiliacoes.jsx',
+        // adicione outras páginas aqui
+      },
+    },
+  },
+});
