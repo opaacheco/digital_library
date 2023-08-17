@@ -1,10 +1,16 @@
-import Wayz from "./Router/Wayz";
+
+import { Outlet } from "react-router-dom";
+import NavbarMain from "./Layout/NavbarMain";
+import Footer from "./Layout/Footer";
 
 function App() {
-
-  return (
-    <Wayz />
-  )
+    return (
+        <div> 
+            <NavbarMain />
+            <Outlet />
+            <Footer />
+        </div>
+    )
 }
 
-export default App
+export default App;
