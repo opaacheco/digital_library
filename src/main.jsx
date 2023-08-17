@@ -8,9 +8,6 @@ import {
   RouterProvider
 } from 'react-router-dom'
 
-import NavbarMain from './Layout/NavbarMain';
-import Footer from './Layout/Footer';
-
 import Home from './Pages/Home';
 import Ebooks from './Pages/Ebooks';
 import Afiliacoes from './Pages/Afiliacoes';
