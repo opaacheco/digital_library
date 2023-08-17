@@ -18,7 +18,7 @@ import DaquiUmAnoVoceVaiDesejarTerComecadoHoje from '../Pages/DaquiUmAnoVoceVaiD
 
 const Wayz = () => {
   return (
-    <BrowserRouter> 
+    <BrowserRouter basename='/pages' > 
       <NavbarMain />
       <Routes>
         <Route path="/" element={<Home />} />
