@@ -33,7 +33,7 @@ function TextAfiliacoes() {
           <Card.Img variant="top" src="./img/verdadeiro-cristao.png" />
           <Card.Body>
               <h3 className="card__title">Verdadeiro Cristão</h3>
-              <p className="card__text">Descubra o verdadeiro significado de ser um cristão autêntico neste curso enriquecedor,<strong className="card__text__transform">explorando a fé cristã, os ensinamentos diários de Jesus, virtudes, sagrados e teológicos.</strong></p>
+              <p className="card__text">Descubra, o verdadeiro significado de ser um cristão autêntico neste curso enriquecedor,<strong className="card__text__transform">explorando a fé cristã, os ensinamentos diários de Jesus, virtudes, sagrados e teológicos.</strong></p>
               <Button href='/verdadeiro-cristao'>Clique para saber mais</Button>
             </Card.Body>
         </Card>
