@@ -34,7 +34,7 @@ function TextAfiliacoes() {
           <Card.Body>
               <h3 className="card__title">Verdadeiro Cristão</h3>
               <p className="card__text">Descubra, o verdadeiro significado de ser um cristão autêntico neste curso enriquecedor,<strong className="card__text__transform">explorando a fé cristã, os ensinamentos diários de Jesus, virtudes, sagrados e teológicos.</strong></p>
-              <Button href='/verdadeiro-cristao'>Clique para saber mais</Button>
+              <Button href='VerdadeiroCristao.html'>Clique para saber mais</Button>
             </Card.Body>
         </Card>
       </div>
@@ -44,7 +44,7 @@ function TextAfiliacoes() {
           <Card.Body>
               <h3 className="card__title">Guia prático para passar em concurso público em um ano</h3>
               <p className="card__text">Daqui um ano você vai desejar ter <strong className="card__text__transform">começado hoje!</strong></p>
-              <Button href='daqui-um-ano-voce-vai-desejar-ter-comecado-hoje'>Clique para saber mais</Button>
+              <Button href='DaquiUmAnoVoceVaiDesejarTerComecadoHoje.html'>Clique para saber mais</Button>
             </Card.Body>
         </Card>
       </div>

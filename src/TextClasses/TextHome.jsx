@@ -16,8 +16,8 @@ const TextHome = () => {
         </h4>
       </div>
       <div className="botoes">
-        <a href='/ebooks' className='botoes__link'>Conheça nossos e-books</a>
-        <a href='/afiliacoes' className='botoes__link'>Conheça nossas afiliações</a>
+        <a href='ebook.html' className='botoes__link'>Conheça nossos e-books</a>
+        <a href='afilicaos.html' className='botoes__link'>Conheça nossas afiliações</a>
       </div>
     </Container>
   );

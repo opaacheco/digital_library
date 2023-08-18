@@ -12,9 +12,9 @@ const NavbarMain = () => {
       <Navbar>
         <Nav>
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/ebooks">E-Books</Nav.Link>
-          <Nav.Link href="/afiliacoes">Afiliações</Nav.Link>
-          <Nav.Link href="/como-acessar">Como Acessar</Nav.Link>
+          <Nav.Link href="ebook.html">E-Books</Nav.Link>
+          <Nav.Link href="afilicaos.html">Afiliações</Nav.Link>
+          <Nav.Link href="ComoAcessar.html">Como Acessar</Nav.Link>
         </Nav>
     </Navbar>
     </Container>
